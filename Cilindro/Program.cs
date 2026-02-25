@@ -15,8 +15,8 @@ namespace Cilindro
             string strRad = Console.ReadLine();
             double r = Convert.ToDouble(strRad);
             
-            Console.WriteLine($"V= {MathF.PI*MathF.Pow((float)r,2)*a}");
-            Console.WriteLine($"S= {2*MathF.PI*r*(r+a)}");
+            Console.WriteLine($"V= {MathF.PI*MathF.Pow((float)r,2)*a:f3}");
+            Console.WriteLine($"S= {2*MathF.PI*r*(r+a):f3}");
         }
     }
 }
