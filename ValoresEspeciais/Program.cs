@@ -48,6 +48,11 @@ namespace ValoresEspeciais
             Console.WriteLine($"{floatMaxMax}");
             floatMaxMax*=2;
             Console.WriteLine($"{floatMaxMax}");
+            
+            float floatMin = float.MinValue;
+            Console.WriteLine($"{floatMin}");
+            floatMin--;
+            Console.WriteLine($"{floatMin}");
 
         }
     }
