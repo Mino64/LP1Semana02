@@ -33,6 +33,12 @@ namespace ValoresEspeciais
             Console.WriteLine($"{double.NegativeInfinity}");
             Console.WriteLine($"{double.NaN}");
 
+            // ex 7
+            uint uintMax = uint.MaxValue;
+            Console.WriteLine($"{uintMax}");
+            uintMax++;
+            Console.WriteLine($"{uintMax}");
+
         }
     }
 }
