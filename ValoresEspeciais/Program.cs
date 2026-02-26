@@ -44,6 +44,11 @@ namespace ValoresEspeciais
             floatMax++;
             Console.WriteLine($"{floatMax}");
 
+            float floatMaxMax = float.MaxValue;
+            Console.WriteLine($"{floatMaxMax}");
+            floatMaxMax*=2;
+            Console.WriteLine($"{floatMaxMax}");
+
         }
     }
 }
