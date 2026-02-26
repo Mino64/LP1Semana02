@@ -39,6 +39,11 @@ namespace ValoresEspeciais
             uintMax++;
             Console.WriteLine($"{uintMax}");
 
+            float floatMax = float.MaxValue;
+            Console.WriteLine($"{floatMax}");
+            floatMax++;
+            Console.WriteLine($"{floatMax}");
+
         }
     }
 }
